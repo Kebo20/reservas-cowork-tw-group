@@ -1,11 +1,8 @@
-<!-- resources/views/rooms/edit.blade.php -->
-
 @extends('layouts.app')
 
 @section('content')
 <div class="container">
     <h1>Editar Sala</h1>
-    <!-- Formulario para editar la sala -->
     <form action="{{ route('rooms.update', $room->id) }}" method="POST">
         @csrf
         @method('PUT')

@@ -86,7 +86,6 @@
 
 
                                 </td>
-                                <!-- <a href="{{ route('bookings.show', $booking->id) }}" class="btn btn-sm btn-primary"><i class="fa-solid fa-pen-to-square"></i></a> -->
 
                                 </td>
                                 <td>
